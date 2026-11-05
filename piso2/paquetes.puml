@@ -1,0 +1,10 @@
+@startuml paquetes
+package modelo {
+  class Personaje
+  class Item
+}
+package combate {
+  class ArenaCombate
+}
+combate ..> modelo
+@enduml
